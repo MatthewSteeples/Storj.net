@@ -3,7 +3,7 @@ using System;
 
 namespace Storj.net.Models
 {
-    public class User
+    public class NewUserResponse
     {
         [JsonProperty("email")]
         public String Email { get; set; }

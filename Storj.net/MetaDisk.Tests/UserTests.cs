@@ -9,11 +9,11 @@ namespace MetaDisk.Tests
         [TestMethod]
         public async void TestMethod1()
         {
-            MetaDisk.Users users = new MetaDisk.Users();
-            Storj.net.Models.User user = new Storj.net.Models.User()
+            MetaDisk.UserClient users = new MetaDisk.UserClient();
+            Storj.net.Models.NewUserRequest user = new Storj.net.Models.NewUserRequest()
             {
-                Email = "lucas@bitcoinbrisbane.com.au",
-                Created = DateTime.UtcNow
+                Email = "lucas2@bitcoinbrisbane.com.au",
+                Password = "f8703825da792b62bdda35abee1a3d51cbdd69963a8f2277eef86fc078be2d91"
             };
 
             await users.AddAsync(user);
