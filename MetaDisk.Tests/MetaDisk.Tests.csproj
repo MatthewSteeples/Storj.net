@@ -50,14 +50,13 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="UnitTest1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="UserTests.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\MetaDisk\MetaDisk.csproj">
+    <ProjectReference Include="..\MetaDisk\MetaDisk.csproj">
       <Project>{49c393d0-2f8e-4df1-9f8a-656f0316508a}</Project>
       <Name>MetaDisk</Name>
     </ProjectReference>
