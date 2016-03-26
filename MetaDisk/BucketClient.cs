@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MetaDisk
 {
-    class BucketClient
+    public class BucketClient
     {
     }
 }

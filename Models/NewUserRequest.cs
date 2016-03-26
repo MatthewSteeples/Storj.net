@@ -1,7 +1,6 @@
 ﻿using Newtonsoft.Json;
 using System;
 
-
 namespace Storj.net.Models
 {
     public class NewUserRequest

@@ -55,7 +55,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Storj.net\Models\Models.csproj">
+    <ProjectReference Include="..\Models\Models.csproj">
       <Project>{515fd1a0-8263-42b0-800c-25de0e35c05d}</Project>
       <Name>Models</Name>
     </ProjectReference>
