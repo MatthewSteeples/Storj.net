@@ -5,23 +5,24 @@ using System.Threading.Tasks;
 namespace MetaDisk.Tests
 {
     [TestClass]
-    public class UserTests
+    public class UnitTest1
     {
-        [TestMethod]
-        public async Task Should_Register_New_User()
-        {
-            Guid id = new Guid();
-            id = Guid.NewGuid();
+        //[TestMethod]
+        //public void TestMethod1()
+        //{
+        //}
 
+        [TestMethod]
+        public async Task TestMethod1()
+        {
             MetaDisk.UserClient users = new MetaDisk.UserClient();
             Storj.net.Models.NewUserRequest user = new Storj.net.Models.NewUserRequest()
             {
-                Email = String.Format("{0}@bitcoinbrisbane.com.au", id),
+                Email = "lucas2@bitcoinbrisbane.com.au",
                 Password = "f8703825da792b62bdda35abee1a3d51cbdd69963a8f2277eef86fc078be2d91"
             };
 
-            var result = await users.AddAsync(user);
-            Assert.IsNotNull(result);
+            //await users.AddAsync(user);
         }
     }
 }
